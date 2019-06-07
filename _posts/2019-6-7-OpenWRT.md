@@ -27,7 +27,8 @@ netgear wndr4300 has official firmware support, just follow the instruction on [
 After the installation finished, restart the router and browse to http://192.168.1.1/ (default username: root, no password) and you will find luci already installed
 
 ### Issues and solutions in the installation:
-1. Reset router after DHCP disabled
+1. Reset router after DHCP disabled.
+
 I would like to set the openWRT router to be an AP router: 
   - changed the LAN ip address of openWRT router to 192.168.0.20
   - disable the DHCP in openWRT
